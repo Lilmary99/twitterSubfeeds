@@ -1,25 +1,37 @@
 {
-  "profiles": [
+  "tweets" : [
     {
-      "id": 1,
-      "firstname": "John",
-      "lastname": "Doe",
-      "favorite_show": "Dear White People",
-      "School": "Winchester University"
+      "name": "Jacob",
+      "twitter_handle": "jacob",
+      "date_posted": "date",
+      "tweet_text": "hello world 1",
+      "reply_count": "",
+      "retweet_count": "",
+      "like_conut": "",
+      "subfeed": "food"
     },
     {
-      "id": 2,
-      "firstname": "<firstname of your team member>",
-      "lastname": "<lastname of your team member>",
-      "favorite_show": "<some favorite show>",
-      "School": "<Some Schoola"
+      "name": "Jacob",
+      "twitter_handle": "jacob",
+      "date_posted": "date",
+      "tweet_text": "hello world 2",
+      "reply_count": "",
+      "retweet_count": "",
+      "like_conut": "",
+      "subfeed": "food"
     },
     {
-      "id": 2,
-      "firstname": "Jacob",
-      "lastname": "Avelino",
-      "favorite_show": "Naruto",
-      "School": "UC Berkeley"
+      "name": "Jacob",
+      "twitter_handle": "jacob",
+      "date_posted": "date",
+      "tweet_text": "hello world 3",
+      "reply_count": "",
+      "retweet_count": "",
+      "like_conut": "",
+      "subfeed": "food"
     }
   ]
+
+
+
 }
