@@ -13,6 +13,13 @@
       "lastname": "<lastname of your team member>",
       "favorite_show": "<some favorite show>",
       "School": "<Some Schoola"
+    },
+    {
+      "id": 2,
+      "firstname": "Jacob",
+      "lastname": "Avelino",
+      "favorite_show": "Naruto",
+      "School": "UC Berkeley"
     }
   ]
 }

@@ -765,9 +765,10 @@
                                     <div class="ProfileHeading-content">
                                       <h2 id="content-main-heading" class="ProfileHeading-title u-hiddenVisually ">Tweets</h2>
                                       <ul class="ProfileHeading-toggle">
-                                        <li class="ProfileHeading-toggleItem  is-active" data-element-term="tweets_toggle">
-                                          <span aria-hidden="true">Tweets</span>
-                                          <span class="u-hiddenVisually">Tweets, current page.</span>
+                                        <li class="ProfileHeading-toggleItem  u-textUserColor" data-element-term="tweets_toggle">
+                                          <a class="ProfileHeading-toggleLink js-nav" href="twitter_profile.html" data-nav="tweets_with_replies_toggle">
+                                            Tweets
+                                          </a>
                                         </li>
                                         <li class="ProfileHeading-toggleItem  u-textUserColor" data-element-term="tweets_with_replies_toggle">
                                           <a class="ProfileHeading-toggleLink js-nav" href="https://twitter.com/jack/with_replies" data-nav="tweets_with_replies_toggle">
@@ -780,9 +781,9 @@
                                           </a>
                                         </li>
 
-                                        <li class="ProfileHeading-toggleItem  u-textUserColor" data-element-term="photos_and_videos_toggle">
-                                          <a class="ProfileHeading-toggleLink js-nav" href="tweet_subfeed_view.html" data-nav="photos_and_videos_toggle">
-                                            Subfeeds
+                                        <li class="ProfileHeading-toggleItem  is-active" data-element-term="photos_and_videos_toggle">
+                                           <span aria-hidden="true">Subfeeds</span>
+                                          <span class="u-hiddenVisually">Subfeeds, current page.</span>
                                           </a> <!-- Add a subfeed tab here, need to change href-->
                                         </li>
                                       </ul>
