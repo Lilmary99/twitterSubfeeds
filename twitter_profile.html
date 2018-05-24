@@ -67,14 +67,13 @@
         "<img class=\"avatar js-action-profile-avatar\" src=\""+ tweet.tweeter_img +
         "\">" +
         "<span class=\"FullNameGroup\">" +
-        "<strong class=\"fullname show-popup-with-id \">" + tweet.name +
+        "<strong class=\"fullname show-popup-with-id \">" + tweet.tweeter_name +
         "</strong>&nbsp;" +
         "<span class=\"UserNameBreak\">&nbsp;</span>" +
         "</span>" +
-
-        "<span class=\"username u-dir\" dir=\"ltr\">@<b>" + tweet.name +
+        "<span class=\"username u-dir\" dir=\"ltr\">@<b>" + tweet.tweeter_name +
         "</b></span>" +
-        "<small class=\"time\">" + tweet.date_posted +
+        "<small class=\"time\">" + tweet.tweet_time_display +
         "</small>" +
         "</div>" +
         "<div class=\"js-tweet-text-container\">" +
@@ -90,7 +89,7 @@
         "</div>" +
         "<div class=\"IconTextContainer\">" +
         "<span class=\"ProfileTweet-actionCount\">" +
-        "<span class=\"ProfileTweet-actionCountForPresentation\" aria-hidden=\"true\">" + tweet.reply_count +
+        "<span class=\"ProfileTweet-actionCountForPresentation\" aria-hidden=\"true\">" + tweet.number_of_replies +
         "</span>" +
         "</span>" +
         "</div>" +
@@ -103,7 +102,7 @@
         "</div>" +
         "<div class=\"IconTextContainer\">" +
         "<span class=\"ProfileTweet-actionCount\">" +
-        "<span class=\"ProfileTweet-actionCountForPresentation\" aria-hidden=\"true\">" + tweet.retweet_count +
+        "<span class=\"ProfileTweet-actionCountForPresentation\" aria-hidden=\"true\">" + tweet.number_of_retweets +
         "</span>" +
         "</span>" +
         "</div>" +
@@ -118,7 +117,7 @@
         "</div>" +
         "<div class=\"IconTextContainer\">" +
         "<span class=\"ProfileTweet-actionCount\">" +
-        "<span class=\"ProfileTweet-actionCountForPresentation\" aria-hidden=\"true\">" + tweet.like_count +
+        "<span class=\"ProfileTweet-actionCountForPresentation\" aria-hidden=\"true\">" + tweet.number_of_likes +
         "</span>" +
         "</span>" +
         "</div>" +
@@ -147,6 +146,7 @@
 
 
 </head>
+
 <body class="no-nav-banners three-col logged-in user-style-jack enhanced-mini-profile ProfilePage ProfilePage--withWarning supports-drag-and-drop" data-fouc-class-names="swift-loading no-nav-banners" dir="ltr">
 
   <script src="./twitter_profile_files/init.en.89893350430df5b9f280.js" async=""></script>
@@ -765,10 +765,9 @@
                                     <div class="ProfileHeading-content">
                                       <h2 id="content-main-heading" class="ProfileHeading-title u-hiddenVisually ">Tweets</h2>
                                       <ul class="ProfileHeading-toggle">
-                                        <li class="ProfileHeading-toggleItem  u-textUserColor" data-element-term="tweets_toggle">
-                                          <a class="ProfileHeading-toggleLink js-nav" href="twitter_profile.html" data-nav="tweets_with_replies_toggle">
-                                            Tweets
-                                          </a>
+                                        <li class="ProfileHeading-toggleItem  is-active" data-element-term="tweets_toggle">
+                                          <span aria-hidden="true">Tweets</span>
+                                          <span class="u-hiddenVisually">Tweets, current page.</span>
                                         </li>
                                         <li class="ProfileHeading-toggleItem  u-textUserColor" data-element-term="tweets_with_replies_toggle">
                                           <a class="ProfileHeading-toggleLink js-nav" href="https://twitter.com/jack/with_replies" data-nav="tweets_with_replies_toggle">
@@ -781,14 +780,14 @@
                                           </a>
                                         </li>
 
-                                        <li class="ProfileHeading-toggleItem  is-active" data-element-term="photos_and_videos_toggle">
-                                           <span aria-hidden="true">Subfeeds</span>
-                                          <span class="u-hiddenVisually">Subfeeds, current page.</span>
+                                        <li class="ProfileHeading-toggleItem  u-textUserColor" data-element-term="photos_and_videos_toggle">
+                                          <a class="ProfileHeading-toggleLink js-nav" href="tweet_subfeed_view.html" data-nav="photos_and_videos_toggle">
+                                            Subfeeds
                                           </a> <!-- Add a subfeed tab here, need to change href-->
                                         </li>
                                       </ul>
                                     </div>
-</div>
+                                  </div>
 
                                   <div class="ProfileWarningTimeline" data-element-context="blocked_profile">
                                     <h2 class="ProfileWarningTimeline-heading" id="content-main-heading">You blocked <span class="username u-dir" dir="ltr">@<b>jack</b></span></h2>
@@ -1098,10 +1097,6 @@
                                                   </button>
                                                 </div>
 
-<<<<<<< HEAD:twitter_profile.html
-=======
-
->>>>>>> 4dcee723a2029d153d39e8ca08fda76f59df2bb6:public/tweet_subfeed_view.html
                                                 <!-- suggested categories -->
                                                 <div class="ProfileTweet-action ProfileTweet-action--subFeed">
                                                   <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionShareViaSubFeed" type="button" data-nav="share_tweet_subFeed">
@@ -1168,10 +1163,6 @@
                                                 </div>
 
 
-<<<<<<< HEAD:twitter_profile.html
-=======
-
->>>>>>> 4dcee723a2029d153d39e8ca08fda76f59df2bb6:public/tweet_subfeed_view.html
                                               </div>
 
                                             </div>
