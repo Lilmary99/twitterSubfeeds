@@ -1061,31 +1061,31 @@
                                                 </div>
 
                                                 <div class="ProfileTweet-action ProfileTweet-action--favorite js-toggleState">
-                                                  <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
-                                                    <div class="IconContainer js-tooltip" title="Like">
-                                                      <div class="HeartAnimationContainer">
-                                                        <div class="HeartAnimation"></div>
-                                                      </div>
-                                                      <span class="u-hiddenVisually">Like</span>
-                                                    </div>
-                                                    <div class="IconTextContainer">
-                                                      <span class="ProfileTweet-actionCount" data-tweet-stat-count="53170">
-                                                        <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">53K</span>
-                                                      </span>
-                                                    </div>
-                                                  </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
-                                                    <div class="IconContainer js-tooltip" title="Undo like">
-                                                      <div class="HeartAnimationContainer">
-                                                        <div class="HeartAnimation"></div>
-                                                      </div>
-                                                      <span class="u-hiddenVisually">Liked</span>
-                                                    </div>
-                                                    <div class="IconTextContainer">
-                                                      <span class="ProfileTweet-actionCount" data-tweet-stat-count="53170">
-                                                        <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">53K</span>
-                                                      </span>
-                                                    </div>
-                                                  </button>
+                                                <button class="ProfileTweet-actionButton js-actionButton js-actionFavorite" type="button">
+                                                <div class="IconContainer js-tooltip" title="Like">
+                                                  <div class="HeartAnimationContainer">
+                                                    <div class="HeartAnimation"></div>
+                                                  </div>
+                                                  <span class="u-hiddenVisually">Like</span>
+                                                </div>
+                                                  <div class="IconTextContainer">
+                                                    <span class="ProfileTweet-actionCount" data-tweet-stat-count="53170">
+                                                      <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">53K</span>
+                                                    </span>
+                                                  </div>
+                                                </button><button class="ProfileTweet-actionButtonUndo u-linkClean js-actionButton js-actionFavorite" type="button">
+                                                <div class="IconContainer js-tooltip" title="Undo like">
+                                                  <div class="HeartAnimationContainer">
+                                                    <div class="HeartAnimation"></div>
+                                                  </div>
+                                                  <span class="u-hiddenVisually">Liked</span>
+                                                </div>
+                                                  <div class="IconTextContainer">
+                                                    <span class="ProfileTweet-actionCount" data-tweet-stat-count="53170">
+                                                      <span class="ProfileTweet-actionCountForPresentation" aria-hidden="true">53K</span>
+                                                    </span>
+                                                  </div>
+                                                </button>
                                                 </div>
 
                                                 <div class="ProfileTweet-action ProfileTweet-action--dm">
@@ -1096,24 +1096,73 @@
                                                     </div>
                                                   </button>
                                                 </div>
-                                                
-                                                <!-- suggested categories --> 
+
+                                                <!-- suggested categories -->
                                                 <div class="ProfileTweet-action ProfileTweet-action--subFeed">
                                                   <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionShareViaSubFeed" type="button" data-nav="share_tweet_subFeed">
                                                     <div class="IconContainer js-tooltip" title="subFeed">
                                                       <span class="IconContainer js-tooltip" aria-hidden="true">
-<font size="1.5">Suggested Subfeed</font>
+<!--<font size="2">Suggested Subfeed</font>-->
                                                     </span>
                                                       <span class="Icon Icon--subFeed">
-                                                        <input type="button" value="Politics"><br>
+                                                        <input type="button" id = "buttonSize" value="Politics">
+                                                        <style>
+                                                        .button{
+                                                          font-size:0.875em;
+      display:block;
+      left:-60px;
+      margin-top:35px;
+      width:100%;
+                                                        }
+                                                        #buttonSize{
+                                                          font-size: 10px;
+                                                          }
+                                                          </style>
+                                                          <br>
+
+                                                      </span>
+                                                      <span class="Icon Icon--subFeed">
+                                                        <input type="button" id = "buttonSize" value="Gaming">
+                                                        <style>
+                                                        .button{
+                                                          font-size:0.875em;
+      display:block;
+      left:-60px;
+      margin-top:35px;
+      width:100%;
+                                                        }
+                                                        #buttonSize{
+                                                          font-size: 10px;
+                                                          }
+                                                          </style>
+                                                          <br>
+
+                                                      </span>
+
+                                                      <span class="Icon Icon--subFeed">
+                                                        <input type="button" id = "buttonSize" value="Golf">
+                                                        <style>
+                                                        .button{
+                                                          font-size:0.875em;
+      display:block;
+      left:-60px;
+      margin-top:35px;
+      width:100%;
+                                                        }
+                                                        #buttonSize{
+                                                          font-size: 10px;
+                                                          }
+                                                          </style>
+                                                          <br>
+
                                                       </span>
                                                       <span class="u-hiddenVisually">subFeed</span>
-                                                      
+
                                                     </div>
                                                   </button>
                                                 </div>
 
-                                                
+
                                               </div>
 
                                             </div>
@@ -1356,6 +1405,70 @@
                                               </button>
                                             </div>
 
+                                            <!-- suggested categories -->
+                                            <div class="ProfileTweet-action ProfileTweet-action--subFeed">
+                                              <button class="ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionShareViaSubFeed" type="button" data-nav="share_tweet_subFeed">
+                                                <div class="IconContainer js-tooltip" title="subFeed">
+                                                  <span class="IconContainer js-tooltip" aria-hidden="true">
+                                          <!--<font size="2">Suggested Subfeed</font>-->
+                                                </span>
+                                                  <span class="Icon Icon--subFeed">
+                                                    <input type="button" id = "buttonSize" value="Politics">
+                                                    <style>
+                                                    .button{
+                                                      font-size:0.875em;
+                                          display:block;
+                                          left:-60px;
+                                          margin-top:35px;
+                                          width:100%;
+                                                    }
+                                                    #buttonSize{
+                                                      font-size: 10px;
+                                                      }
+                                                      </style>
+                                                      <br>
+
+                                                  </span>
+                                                  <span class="Icon Icon--subFeed">
+                                                    <input type="button" id = "buttonSize" value="Gaming">
+                                                    <style>
+                                                    .button{
+                                                      font-size:0.875em;
+                                          display:block;
+                                          left:-60px;
+                                          margin-top:35px;
+                                          width:100%;
+                                                    }
+                                                    #buttonSize{
+                                                      font-size: 10px;
+                                                      }
+                                                      </style>
+                                                      <br>
+
+                                                  </span>
+
+                                                  <span class="Icon Icon--subFeed">
+                                                    <input type="button" id = "buttonSize" value="Golf">
+                                                    <style>
+                                                    .button{
+                                                      font-size:0.875em;
+                                          display:block;
+                                          left:-60px;
+                                          margin-top:35px;
+                                          width:100%;
+                                                    }
+                                                    #buttonSize{
+                                                      font-size: 10px;
+                                                      }
+                                                      </style>
+                                                      <br>
+
+                                                  </span>
+                                                  <span class="u-hiddenVisually">subFeed</span>
+
+                                                </div>
+                                              </button>
+                                            </div>
 
 
 
