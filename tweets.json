@@ -4,18 +4,18 @@
       "twitter_img": "/twitter_profile_files/mkpdB9Tf_bigger.jpg",
       "twitter_handle": "jack",
       "date_posted": "Sat 13 May 2017 02:00 UTC",
-      "tweet_text": "hello world 1",
+      "tweet_text": "I like playing Nintendo 64",
       "reply_count": 345,
       "retweet_count": 2,
-      "like_conut": 100,
-        "subfeed": "Gaming"
+      "like_count": 100,
+      "subfeed": "Gaming"
     },
     {
       "name": "Jack",
       "twitter_handle": "jack",
       "twitter_img": "/twitter_profile_files/mkpdB9Tf_bigger.jpg",
       "date_posted": "Sat 14 May 2017 02:00 UTC",
-      "tweet_text": "hello world 2",
+      "tweet_text": "Victory Royale!",
       "reply_count": 45,
       "retweet_count": 2,
       "like_count": 100,
@@ -26,10 +26,76 @@
       "twitter_handle": "jack",
       "twitter_img": "/twitter_profile_files/mkpdB9Tf_bigger.jpg",
       "date_posted": "Sat 15 May 2017 02:00 UTC",
-      "tweet_text": "hello world 3",
+      "tweet_text": "Playing PS4",
       "reply_count":  200,
       "retweet_count": 2,
-      "like_conut": 100,
+      "like_count": 100,
       "subfeed": "Gaming"
+    },
+    {
+      "name": "Jack",
+      "twitter_img": "/twitter_profile_files/mkpdB9Tf_bigger.jpg",
+      "twitter_handle": "jack",
+      "date_posted": "Sat 13 May 2017 02:00 UTC",
+      "tweet_text": "Tiger Woods",
+      "reply_count": 345,
+      "retweet_count": 2,
+      "like_count": 100,
+      "subfeed": "Golf"
+    },
+    {
+      "name": "Jack",
+      "twitter_handle": "jack",
+      "twitter_img": "/twitter_profile_files/mkpdB9Tf_bigger.jpg",
+      "date_posted": "Sat 14 May 2017 02:00 UTC",
+      "tweet_text": "Golf Club",
+      "reply_count": 45,
+      "retweet_count": 2,
+      "like_count": 100,
+      "subfeed": "Golf"
+    },
+    {
+      "name": "Jack",
+      "twitter_handle": "jack",
+      "twitter_img": "/twitter_profile_files/mkpdB9Tf_bigger.jpg",
+      "date_posted": "Sat 15 May 2017 02:00 UTC",
+      "tweet_text": "Practicing golf",
+      "reply_count":  200,
+      "retweet_count": 2,
+      "like_count": 100,
+      "subfeed": "Golf"
+    },
+    {
+      "name": "Jack",
+      "twitter_img": "/twitter_profile_files/mkpdB9Tf_bigger.jpg",
+      "twitter_handle": "jack",
+      "date_posted": "Sat 13 May 2017 02:00 UTC",
+      "tweet_text": "Elections",
+      "reply_count": 345,
+      "retweet_count": 2,
+      "like_count": 100,
+      "subfeed": "Politics"
+    },
+    {
+      "name": "Jack",
+      "twitter_handle": "jack",
+      "twitter_img": "/twitter_profile_files/mkpdB9Tf_bigger.jpg",
+      "date_posted": "Sat 14 May 2017 02:00 UTC",
+      "tweet_text": "Voting",
+      "reply_count": 45,
+      "retweet_count": 2,
+      "like_count": 100,
+      "subfeed": "Politics"
+    },
+    {
+      "name": "Jack",
+      "twitter_handle": "jack",
+      "twitter_img": "/twitter_profile_files/mkpdB9Tf_bigger.jpg",
+      "date_posted": "Sat 15 May 2017 02:00 UTC",
+      "tweet_text": "More politics",
+      "reply_count":  200,
+      "retweet_count": 2,
+      "like_count": 100,
+      "subfeed": "Politics"
     }
 ]
