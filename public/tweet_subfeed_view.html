@@ -131,6 +131,19 @@
         "</div>" +
         "</button>" +
         "</div>" +
+        "<div class=\"ProfileTweet-action ProfileTweet-action--subfeed\">" +
+        "<button class=\"ProfileTweet-actionButton u-textUserColorHover js-actionButton js-actionShareViaSubFeed\" type=\"button\" data-nav=\"share_tweet_subfeed\">" +
+        "<div class=\"IconContainer js-tooltip\" title=\"subfeed\">" +
+        "<span class=\"Icon Icon--subfeed\"></span>" +
+        "</div>" +
+        "</button>" +
+        "</div>" +
+        "<div class=\"IconTextContainer\">" +
+        "<span class=\"ProfileTweet-actionCount\">" +
+        "<span class=\"ProfileTweet-actionCountForPresentation\" aria-hidden=\"true\">" + tweet.subfeed +
+        "</span>" +
+        "</span>" +
+        "</div>" +
         "</div>" +
         "</div>" +
         "</div>" +
@@ -838,6 +851,7 @@
                                   <div style = "visibility: hidden;" id = "TFC">
                                     <!-- if category is in tweet, add tweet to subfeed category -->
                                   </div>
+
                                   <div class="ProfileWarningTimeline" data-element-context="blocked_profile">
                                     <h2 class="ProfileWarningTimeline-heading" id="content-main-heading">You blocked <span class="username u-dir" dir="ltr">@<b>jack</b></span></h2>
                                     <p class="ProfileWarningTimeline-explanation">Are you sure you want to view these Tweets? Viewing Tweets won't unblock <span class="username u-dir" dir="ltr">@<b>jack</b></span></p>
@@ -897,6 +911,7 @@
 
                                           </div>
                                           <!-- END INSERT DIV -->
+
 
 
 

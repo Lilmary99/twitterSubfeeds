@@ -136,7 +136,9 @@
         "</div>" +
         "</div>" +
         "</li>");
-      myDiv.append(child);
+        if ( tweet.subfeed === "Golf"){
+              myDiv.append(child);
+        }
     }
   });
 </script>
@@ -796,17 +798,6 @@
                                     <div class="ProfileHeading-content">
                                       <h2 id="content-main-heading" class="ProfileHeading-title u-hiddenVisually "></h2>
                                       <ul class="ProfileHeading-toggle">
-                                        <li class="ProfileHeading-toggleItem  u-textUserColor" data-element-term="photos_and_videos_toggle">
-                                          <a class="ProfileHeading-toggleLink js-nav" href="politics.html" data-nav="photos_and_videos_toggle">
-                                            Politics
-                                          </a>
-                                        </li>
-
-                                        <li class="ProfileHeading-toggleItem  is-active" data-element-term="photos_and_videos_toggle">
-                                           <span aria-hidden="true"></span>
-                                          <span class="u-hiddenVisually">Politics</span>
-                                          </a> <!-- Add a subfeed tab here, need to change href-->
-                                        </li>
 
                                         <li class="ProfileHeading-toggleItem  u-textUserColor" data-element-term="photos_and_videos_toggle">
                                           <a class="ProfileHeading-toggleLink js-nav" href="gaming.html" data-nav="photos_and_videos_toggle">
@@ -819,16 +810,22 @@
                                           <span class="u-hiddenVisually">Gaming</span>
                                           </a> <!-- Add a subfeed tab here, need to change href-->
                                         </li>
-
                                         <li class="ProfileHeading-toggleItem  u-textUserColor" data-element-term="photos_and_videos_toggle">
-                                          <a class="ProfileHeading-toggleLink js-nav" href="golf.html" data-nav="photos_and_videos_toggle">
-                                            Golf
+                                          <a class="ProfileHeading-toggleLink js-nav" href="politics.html" data-nav="photos_and_videos_toggle">
+                                            Politics
                                           </a>
                                         </li>
 
                                         <li class="ProfileHeading-toggleItem  is-active" data-element-term="photos_and_videos_toggle">
                                            <span aria-hidden="true"></span>
-                                          <span class="u-hiddenVisually">Golf</span>
+                                          <span class="u-hiddenVisually">Politics</span>
+                                          </a> <!-- Add a subfeed tab here, need to change href-->
+                                        </li>
+
+                                  
+
+                                        <li class="ProfileHeading-toggleItem  is-active" data-element-term="photos_and_videos_toggle">
+                                           <span aria-hidden="true">Golf</span>
                                           </a> <!-- Add a subfeed tab here, need to change href-->
                                         </li>
                                   </div>
